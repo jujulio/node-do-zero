@@ -1,0 +1,31 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o video 01",
+    "duration": 180
+}
+
+###
+
+GET  http://localhost:3333/videos
+// Com filtro Exemplo: http://localhost:3333/videos?search=node
+// Sem filtro Exemplo: http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/
+Content-type: application/json
+// Exemplo: hhttp://localhost:3333/videos/dc4e60da-4e07-44f3-8918-1cc4b7b26364
+
+{
+    "title": "Video 33",
+    "description": "Esse é o video 33",
+    "duration": 55
+}
+
+###
+
+DELETE  http://localhost:3333/videos/
+// Exemplo: http://localhost:3333/videos/dc4e60da-4e07-44f3-8918-1cc4b7b26364
