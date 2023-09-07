@@ -29,8 +29,8 @@ Esse projeto foi desenvolvido utilizando:
 # Instalar dependências:
 $ "yarn"
 # Rodar a aplicação
-$ Criar o banco de dados: comentar o command DROP e rodar node create-tables.js
-$ Excluir o banco de dados: comentar o command CREATE e rodar node create-tables.js
+$ Criar o banco de dados: comentar o command DROP e rodar "node create-tables.js"
+$ Excluir o banco de dados: comentar o command CREATE e rodar "node create-tables.js"
 $ Com o banco de dados criado no neon! rodar: "npm run dev"
 # Com a aplicação rodando, no arquivo routes.http clicar em "send request" para realizar as operações de
 # POST, GET, PUT E DELETE.
